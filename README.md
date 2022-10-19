@@ -29,6 +29,7 @@ The purpose of this coding challenge is to gauge knowledge in Ruby/Rails. In the
 6. You are allowed to install and use third-party packages.
 
 ## Getting Started
+
 1. Run: `bundle install`
 2. Run: `bundle exec rails db:create`
 3. Run: `bundle exec rspec`
@@ -61,4 +62,4 @@ The purpose of this coding challenge is to gauge knowledge in Ruby/Rails. In the
 ## Submission
 
 1. When you have your final commit complete, please zip up your entire folder.
-2. Once you have coding submission zipped up, please upload it as per ![UploadSubmission.png](https://github.com/Aumni-Fund/node-coding-challenge/blob/master/UploadSubmission.png).
+2. Once you have coding submission zipped up, please send it to eng-recruiting@aumni.fund

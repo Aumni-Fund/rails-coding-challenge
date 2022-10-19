@@ -3,8 +3,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use postgresql as the database for Active Record
@@ -44,8 +42,8 @@ end
 group :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails'
-  gem 'simplecov', require: false
   gem 'shoulda-matchers'
+  gem 'simplecov', require: false
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara'
   gem 'selenium-webdriver'
