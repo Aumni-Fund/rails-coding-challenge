@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+# More details on how to use this file to dispute/ignore a Snyk finding, reach out on #ask-appsec Slack or review our documentation here: https://www.notion.so/aumni/Getting-Started-With-Snyk-75fb129e956a431c86e984dd27210568
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK_FINDING_ID:
+    - '*':
+        reason: 'Reason: Explanation'
+        expires: 2026-08-22T00:00:00.000Z
+        created: 2024-08-22T16:08:51.610Z
+patch: {}
